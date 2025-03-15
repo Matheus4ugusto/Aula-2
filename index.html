@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+<body>
+    <h2>O problema dos poemas</h2>
+    <h3>Escrevendo um poema utilizando-se a tag p</h3>
+    <p>
+        Quando nasci, um anjo torto
+        Desses que vivem na sombra
+        Disse: Vai, Carlos, ser gauche na vida
+
+        [...]
+
+        Mundo, mundo, vasto mundo
+        Se eu me chamasse Raimundo
+        Seria uma rima, não seria uma solução
+        Mundo, mundo, vasto mundo
+        Mais vasto é meu coração
+
+        [...]
+    </p>
+    <h3>Escrevendo um poema utilizando-se a tag pre</h3>
+    <pre>
+        Quando nasci, um anjo torto
+        Desses que vivem na sombra
+        Disse: Vai, Carlos, ser gauche na vida
+
+        [...]
+
+        Mundo, mundo, vasto mundo
+        Se eu me chamasse Raimundo
+        Seria uma rima, não seria uma solução
+        Mundo, mundo, vasto mundo
+        Mais vasto é meu coração
+
+        [...]
+    </pre>
+    <h3>Conclusão</h3>
+    <p>Ao se utilizar uma tag p, não é possível formatar o texto como desejado em certos momentos assim como foi demonstrado com a construção de um poema. Para solucionar este problema, existe a tag pre, esta tag não ignorará a formatação definida durante a escrita do HTML</p>
+    <hr>
+    <h2>Mais tags de formatação de texto</h2>
+    <h3>Tag b</h3>
+    <p>A tag b adiciona um texto em <b>negrito</b></p>
+    <h3>Tag strong</h3>
+    <p>A tag strong adiciona um texto em destaque, geralmente é exibido em <strong>negrito</strong></p>
+    <h3>Tag i</h3>
+    <p>A tag i adiciona um texto em <i>itálico</i>
+    </p>
+    <h3>Tag em</h3>
+    <p>A tag em adiciona um texto com ênfase, geralmente é exibido em <em>itálico</em></p>
+    <p>Dica: Leitores de tela para pessoas com deficiência visuais pronunciam o texto em ênfase de forma diferente, para manter a acessibilidade de um site é interessante que se utilize a tag "em" em substituição à tag i</p>
+    <h3>Tag small</h3>
+    <p>A tag small adiciona um texto <small>pequeno</small></p>
+    <h3>Tag mark</h3>
+    <p>a tag mark adiciona um texto <mark>marcado ou destacado</mark></p>
+    <h3>Tag del</h3>
+    <p>A tag del adiciona um texto <del>excluído</del>, geralmente este texto será exibido com um risco</p>
+    <h3>Tag ins</h3>
+    <p>A tag ins adiciona um texto <ins>sublinhado</ins></p>
+    <h3>Tag sub</h3>
+    <p>A tag sub adiciona um texto <sub>subscrito</sub></p>
+    <h3>Tag sup</h3>
+    <p>A tag sup adiciona um texto <sup>sobrescrito</sup></p>
+    <hr>
+    <h2>Tags de citações</h2>
+    <h3>Tag blockquote</h3>
+    <p>Aqui está uma citação de Machado de Assis</p>
+    <blockquote cite="http://www.dominiopublico.gov.br/download/texto/ua000194.pdf">
+        Agora, por que é que nenhuma dessas caprichosas me fez esquecer a primeira amada do meu coração? Talvez porque nenhuma tinha os olhos de ressaca, nem os de cigana oblíqua e dissimulada.
+    </blockquote>
+    <p>Aqui está uma citação de Morte e Vida Severina</p>
+    <blockquote cite="https://colegiocngparanagua.com.br/wp-content/uploads/2020/07/MORTE-E-VIDA-SEVERINA.pdf">
+        <pre>
+            — Severino, retirante,
+        deixe agora que lhe diga:
+        eu não sei bem a resposta
+        da pergunta que fazia,
+        se não vale mais saltar
+        fora da ponte e da vida;
+        nem conheço essa resposta,
+        se quer mesmo que lhe diga
+        é difícil defender,
+        só com palavras, a vida,
+        ainda mais quando ela é
+        esta que vê, Severina
+        mas se responder não pude
+        à pergunta que fazia,
+        ela, a vida, a respondeu
+        com sua presença viva.
+        E não há melhor resposta
+        que o espetáculo da vida:
+        vê-la desfiar seu fio,
+        que também se chama vida,
+        ver a fábrica que ela mesma,
+        teimosamente, se fabrica,
+        vê-la brotar como há pouco
+        em nova vida explodida;
+        mesmo quando é assim pequena
+        a explosão, como a ocorrida;
+        como a de há pouco, franzina;
+        mesmo quando é a explosão
+        de uma vida Severina.
+        </pre>
+    </blockquote>
+    <h3>Tag q</h3>
+    <p>A tag q geralmente é utilizada para citar textos pequenos dentro de parágrafos, por exemplo: <q>O voo negro dos urubus fazia círculos altos em redor de bichos moribundos </q></p>
+    <h3>Tag abbr</h3>
+    <p>a tag abbr serve para realizar abreviações de forma semântica, por exemplo: <abbr title="Hypertext markup language">HTML</abbr></p>
+    <h3>Tag address</h3>
+    <p>A tag address serve para adicionar informações de endereço/contato, geralmente o texto da tag é carregado em itálico</p>
+    <address>
+        Rua de Exemplo, <br>
+        Número 00, <br>
+        Bairro de exemplo, <br>
+        Cidade de exemplo, <br>
+        Brasil.
+    </address>
+    <h3>Tag cite</h3>
+    <p>A tag cite serve para definir o nome de uma obra citada, por exemplo: <cite>Memórias de um sargento de milícia</cite> foi escrito por Manuel Antônio de Almeida</p>  
+    <h3>Curiosidade: tag bdo</h3>
+    <p>A tag bdo serve para definir a direção da escrita, podendo ser left to right ou right to left</p>
+     <bdo dir="rtl">Este texto foi escrito de forma espelhada</bdo>
+     <br>
+     <bdo dir="ltr">Este texto foi escrito de forma normal</bdo>
+     <hr>
+     <h2>Listas</h2>
+     <h3>Listas não ordenadas</h3>
+     <ul>
+        <li>Café</li>
+        <li>Chá</li>
+        <li>Leite</li>
+     </ul>
+     <h3>Listas ordenadas</h3>
+     <ol>
+        <li>Café</li>
+        <li>Chá</li>
+        <li>Leite</li>
+     </ol>
+     <h3>Listas com descrições</h3>
+     <dl>
+        <dt>Café</dt>
+        <dd>- Líquido preto e quente</dd>
+        <dt>Leite</dt>
+        <dd>- Líquido branco e gelado</dd>
+     </dl>
+</body>
+</html>
